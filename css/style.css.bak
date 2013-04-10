@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+
+header {
+  width: 700px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 15px;
+  color: #989898;
+}
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 800px;
+}
+.name {
+  float: left;
+}
+
+.nav {
+  float: right;
+  margin-right: 60px;
+}
+
+.clear {
+  clear: both;
+}
+
+.left_about {
+  margin-top: 40px;
+  width: 390px;
+  height: 475px;
+  background-color: #e1ed5f;
+  float: left;
+}
+
+.right_about {
+  margin-top: 300px;
+  margin-left: 25px;
+  width: 380px;
+  height: 215px;
+  background-color: #8bed40;
+  /*display: inline-block;*/
+  float: right;
+}

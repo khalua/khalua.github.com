@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 15px;
+  color: #989898;
+}
+
+.about, .portfolio, .other {
+  margin-top: 200px;
+  padding-bottom: 50px;
+}
+
+.left_about {
+  border: 1px solid red;
+  height: 525px;
+  position:relative;
+}
+
+.center_about {
+  border: 1px solid red;
+  height: 220px;
+  bottom: 0px;
+  margin-top: 305px;
+}
+
+.right_about {
+  border: 1px solid red;
+  height: 220px;
+  margin-top: 305px;
+}
+
+.left_portfolio {
+  border: 1px solid red;
+  height: 220px;
+}
+
+.center_portfolio {
+  border: 1px solid red;
+  height: 220px;
+}
+
+.right_portfolio {
+  border: 1px solid red;
+  height: 525px;
+}
+
+.port_up {
+  margin-top: -219px;
+  display: inline;
+}
