@@ -4,6 +4,10 @@
   max-width: 1000px;
 }
 
+.nav {
+  margin-top: 15px;
+}
+
 header {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -12,10 +16,16 @@ header {
   color: #989898;
 }
 
-.about, .portfolio, .other {
-  margin-top: 100px;
-  padding-bottom: 50px;
+.about, .portfolio {
+  margin-top: 80px;
+  padding-bottom: 150px;
 }
+
+.other {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
 
 .left_about {
   border: 1px solid red;
@@ -54,4 +64,10 @@ header {
 .port_up {
   margin-top: -219px;
   display: inline;
+}
+
+.nav-white {
+  color: white;
+  pointer-events: none;
+  cursor: default;
 }
