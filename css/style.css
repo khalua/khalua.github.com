@@ -66,8 +66,3 @@ header {
   display: inline;
 }
 
-.nav-white {
-  color: white;
-  pointer-events: none;
-  cursor: default;
-}
