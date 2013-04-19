@@ -257,9 +257,9 @@ h6 {
     padding-bottom: 12px;
     padding-top: 13px; }
   .btn.btn-primary {
-    background-color: #1abc9c; }
+    background-color: #c0392b; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
-      background-color: #2fe2bf; }
+      background-color: #e74c3c; }
     .btn.btn-primary:active, .btn.btn-primary.active {
       background-color: #16a085; }
   .btn.btn-info {

@@ -1,20 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Istok+Web);
+
+body {
+  background: url('../images/purty_wood.png');
+}
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
 }
 
-.nav {
-  margin-top: 15px;
+.box {
+  border-radius: 2px;
+  padding-left: 25px;
+  padding-top: 20px;
+  opacity: 0.9;
 }
 
 header {
   margin-top: 30px;
   margin-bottom: 40px;
   font-family: 'Istok Web', sans-serif;
-  font-size: 15px;
-  color: #989898;
+
 }
+
+.name {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #4d4d4d;
+}
+
 
 .about, .portfolio {
   margin-top: 80px;
@@ -23,41 +37,41 @@ header {
 
 .other {
   margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 
 .left_about {
-  border: 1px solid red;
   height: 525px;
+  background-color: #5FC872;
   position:relative;
 }
 
 .center_about {
-  border: 1px solid red;
+  background-color: #F3701E;
   height: 220px;
   bottom: 0px;
   margin-top: 305px;
 }
 
 .right_about {
-  border: 1px solid red;
+  background-color: #F3711E;
   height: 220px;
   margin-top: 305px;
 }
 
 .left_portfolio {
-  border: 1px solid red;
+  background-color: #5FC872;
   height: 220px;
 }
 
 .center_portfolio {
-  border: 1px solid red;
+  background-color: #5FC872;
   height: 220px;
 }
 
 .right_portfolio {
-  border: 1px solid red;
+  background-color: #F3711E;
   height: 525px;
 }
 
