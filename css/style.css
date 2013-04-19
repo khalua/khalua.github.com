@@ -24,7 +24,7 @@ header {
 
 .name {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 24px;
   color: #4d4d4d;
 }
 
@@ -67,7 +67,7 @@ header {
 
 .right_portfolio {
   background-color: #F3711E;
-  height: 620px;
+  height: 680px;
 }
 
 .port_up {
