@@ -51,20 +51,20 @@ header {
 
 .left_about {
   height: 525px;
-  background-color: #FFFF00;
+  background-color: #A2C1D5;
   position:relative;
 }
 
 .center_about {
-  background-color: #A2C1D5;
+  background-color: #FFFF00;
   height: 220px;
-  bottom: 0px;
   margin-top: 305px;
 }
 
 .right_about {
   background-color: #A2C1D5;
   height: 220px;
+  bottom: 0px;
   margin-top: 305px;
 }
 
