@@ -4,6 +4,10 @@ body {
   background: url('../images/carbon_fibre_big.png');
 }
 
+h2 {
+  color: #FFFF00;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
@@ -17,6 +21,13 @@ body {
   z-index: 1;
 }
 
+.push_down {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 20px;
+  padding-left: 4px;
+}
 
 .box {
   border-radius: 2px;
@@ -51,18 +62,18 @@ header {
 
 .left_about {
   height: 525px;
-  background-color: #A2C1D5;
+  background-color: #666666;
   position:relative;
 }
 
-.center_about {
+.right_about {
   background-color: #FFFF00;
   height: 220px;
   margin-top: 305px;
 }
 
-.right_about {
-  background-color: #A2C1D5;
+.center_about {
+  background-color: #FFFF00;
   height: 220px;
   bottom: 0px;
   margin-top: 305px;
