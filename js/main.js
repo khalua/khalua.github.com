@@ -1,5 +1,5 @@
 $(document).ready(function() {
   $('body').jKit();
-  $('#main_portfolio').jKit('slideshow', { 'interval': '4000', 'speed': 'fast', 'animation': 'fade' });
+  $('#main_portfolio').jKit('carousel', { 'autoplay': 'no', 'limit': '1', 'animation': 'none'  });
 });
 

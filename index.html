@@ -48,18 +48,31 @@
     <div class='portfolio row-fluid'>
       <div class='span3 box left_portfolio'><h3>Some of the awesome web apps I've built</h3></div>
       <div class='span9 box right_portfolio'>
-       <div id='main_portfolio'>
-        <div>
+       <div id='main_portfolio' class='carousel'>
+        <div class='carousel-item'>
           <h3>Binders full of cities</h3>
-          <img src="images/binders_screenshot.png" height="500" width="650"/>
+          <p>For my first solo project, I hooked up Rails to the Zillow demographics API using Nokogiri. The goal of the app
+            is to enter any city in the US, and get demographic data returned (such as average household income, male to female ratio, houses with kids, etc). Cities could be stored in a 'binder', and could easily be compared against each other, and
+            against the national averages.</p>
+          <p>This app was completed after 3 weeks of class... and although it's super simple, it's super cool. I intend to go back to
+            it and add new features and tests after I put a donk on Spotifriends.</p>
+          <img src="images/binders_screenshot.png" width="460" class='nudge-right-big'/>
+          <a href="https://github.com/khalua/neighbors"><img src="images/octocat.png" class='octocat'/></a>
         </div>
-        <div>
+        <div class='carousel-item'>
           <h3>Spotifriends</h3>
-          <img src="images/spotifriends_screenshot.png"/>
+          <p>Second solo project, completed after 6 weeks of class. This app allows groups of friends to share music on Spotify,
+            and hold weekly contests for "best song." The inspiration was a real-life contest that takes place over emails. How primitive!</p>
+          <p>This was much more complex than the first solo project, with 6 models, nokogiri, rspec, javascript, jQuery and ajax.</p>
+          <p>Big launch coming up! Stay tuned.</p>
+          <img src="images/spotifriends_screenshot.png" width='600' class='nudge-right-small'/>
+          <a href="https://github.com/khalua/spotifriends"><img src="images/octocat.png" class='octocat'/></a>
         </div>
-        <div>
+        <div class='carousel-item'>
           <h3>Bobs and Bangs</h3>
-          <img src="images/bab_screenshot2.png" height="900" width="900"/>
+          <p>For this project, I had the pleasure of working with 3 other very talented classmates (click on Octocat above to get their details). The purpose of the app is for stylists to create portfolios of their work, and style fans to get ideas and inspiration from those postings. We did some really cool shit here, and used a huge amount of jquery plugins that we heavily customized.</p>
+          <img src="images/bab_screenshot2.png" width="900"/>
+          <a href="https://github.com/strivedi183/snippyskippy"><img src="images/octocat.png" class='octocat'/></a>
         </div>
       </div>
     </div>
