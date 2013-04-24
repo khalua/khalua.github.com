@@ -68,7 +68,7 @@ header {
   padding-bottom: 150px;
 }
 
-.other {
+.contact {
   margin-top: 80px;
   margin-bottom: 200px;
 }
@@ -110,12 +110,12 @@ header {
   height: 690px;
 }
 
-.left_other {
-  background-color: #FFFF00;
-  height: 600px;
+.left_contact {
+  background-color: #666666;
+  height: 220px;
 }
 
-.right_other {
+.right_contact {
   background-color: #A2C1D5;
   height: 600px;
 }
