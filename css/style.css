@@ -115,14 +115,14 @@ header {
   height: 690px;
 }
 
-.left_contact {
+.right_contact {
   background-color: #666666;
   height: 220px;
 }
 
-.right_contact {
+.left_contact {
   background-color: #A2C1D5;
-  height: 600px;
+  height: 630px;
 }
 
 .port_up {
